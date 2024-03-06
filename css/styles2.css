@@ -1,0 +1,120 @@
+/* General styles */
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+.search_icon{
+    width: 10px;
+    height:10px;
+}
+.wow{
+    font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: larger;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+}
+.gren{
+
+    font-weight: 400;
+    color:#9ee299;
+}
+.red{
+
+    font-weight: 400;
+    color:#f45353;
+}
+.my-button {
+
+    margin: 0 auto;
+    width: 100%;
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove default button border */
+    padding: 10px 20px; /* Padding around the button text */
+    font-size: 16px; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.my-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+.container {
+
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.pic img{
+
+    height: 150px;
+    width: 100%;
+    /* position: relative; */
+    /* background: #97ffac; */
+}
+header {
+
+    font-weight: 50;
+    background-color: #ffffff;
+    color: #b1eea3;
+    text-align: center;
+    padding: 0px 0;
+    margin: 0;
+}
+
+.account-name {
+    font-size: 18px;
+    margin-top: 5px;
+}
+.nav_icon{
+    width: 20px;
+    height:20px;
+}
+nav ul {
+    list-style-type: none;
+    border-radius: 5%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #333333;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #ffffff;
+    color:#80f977;
+}
+
+footer {
+    text-align: center;
+    background-color: #bfd8f4;
+    color: #000000;
+}
+
